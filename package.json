@@ -2,12 +2,12 @@
   "//1": "describes your app and its dependencies",
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
+  "name": "froqui-gani",
   "version": "0.0.1",
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "express": "^4.16.3",
@@ -17,12 +17,13 @@
     "node": "8.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
+    "url": "https://glitch.com/edit/#!/froqui-gani"
   },
   "license": "MIT",
   "keywords": [
     "node",
     "glitch",
     "express"
-  ]
+  ],
+  "devDependencies": {}
 }
