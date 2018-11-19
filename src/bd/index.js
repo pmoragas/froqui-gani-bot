@@ -2,4 +2,4 @@ import Datastore from 'nedb-promises';
 
 const db = new Datastore({filename: 'database', autoload: true});
 
-module.exports = db;
+export default db;
