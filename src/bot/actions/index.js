@@ -5,3 +5,11 @@ export function sayHi(ctx) {
 export function sayQtal(ctx) {
     return `hey, q tal ${ctx.from.first_name}?`;
 }
+
+export function add(ctx) {
+    // TODO
+}
+
+export function get(ctx) {
+    // TODO
+}

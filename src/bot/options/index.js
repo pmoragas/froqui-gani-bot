@@ -6,12 +6,12 @@ export const options = [
         name: "sticker",
         type: "on",
         description: "Send an sticker and i'll answer",
-        message: sayQtal
+        action: sayQtal
     },
     {
         name: "hi",
         type: "hears",
         description: "Say hi and i'll reply",
-        message: sayHi
+        action: sayHi
     }
 ];
