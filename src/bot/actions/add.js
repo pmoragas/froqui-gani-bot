@@ -14,7 +14,9 @@ export function addWizard() {
             return ctx.wizard.next()
         },
         (ctx) => {
+            restaurant.title = ctx.message.text;
             restaurant.name = ctx.message.text.toLowerCase();
+
             ctx.reply('Nota de 1 a 10:')
             return ctx.wizard.next()
         },

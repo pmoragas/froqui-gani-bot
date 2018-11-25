@@ -1,5 +1,5 @@
 
-import { sayHi, sayQtal } from '../actions';
+import { sayHi, sayQtal, getAll } from '../actions';
 import { add } from '../actions/add';
 
 export const options = [
@@ -20,5 +20,11 @@ export const options = [
         type: "command",
         description: "Afegir nou restaurant",
         action: add
+    },
+    {
+        name: "get",
+        type: "command",
+        description: "Veure tots els restaurants",
+        action: getAll
     }
 ];
